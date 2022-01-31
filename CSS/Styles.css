@@ -1,0 +1,32 @@
+.nav{
+background-image: linear-gradient(to right, rgb(8,255,103), rgb(4, 119, 252));
+height: 60px;
+width: 100%;
+text-align: right;
+    
+    
+}
+
+ul{
+    margin: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline-block;
+    list-style-type: none; 
+}
+li{
+    font-size: 20px;
+    padding-top: 15px;  
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+a{
+
+}
+
+li:hover{
+    transform: scale(1.5);
+
+}
