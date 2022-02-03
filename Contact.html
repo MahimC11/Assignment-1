@@ -4,19 +4,35 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Contact Me</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="CSS/Styles.css"> <!--Link to style sheet-->
+        <script>
+            function darkmode() {
+                var element = document.body;
+                element.classList.toggle("dark-mode")
+            }
+        </script>
     </head>
     <body>
-        <div class = "nav">
-            <ul>
-                <li><a class="active" href="About.html">Home Page </a>    </li>
-                <li><a href="About.html">About</a> </li>
-                <li><a href="Contact.html">Contact</a>  </li>   
-        
-            </ul>
-        
+        <div class = "container">
+            <div class="nav-container">
+                <div class = darkmode-container>
+                    <label class="switch">
+                        <input type="checkbox" onclick="darkmode()">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+                <div class ="nav">
+                    <ul>
+                        <li id="Navbar"><a href="index.html">Home Page </a>    </li>
+                        <li id="Navbar"><a class = "active" href="About.html">About</a> </li>
+                        <li id="Navbar"><a href="Contact.html">Contact</a>  </li>   
+            
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

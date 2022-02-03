@@ -1,8 +1,11 @@
 .nav{
-background-image: linear-gradient(to right, rgb(8,255,103), rgb(4, 119, 252));
 height: 60px;
-width: 100%;
+width: 45%;
 text-align: right;
+float: right;
+display: inline-block;
+padding-left:5px;
+padding-right:5px;
 } /*Styles The Nav Bar */
 
 ul{
@@ -57,6 +60,9 @@ li:hover{
   max-width: 1000px;
   position: relative;
   margin: auto;
+  padding-top:5px;
+  padding-left:5px;
+  padding-right:5px;
 }
 
 /* Hide the images by default */
@@ -145,3 +151,96 @@ li:hover{
   to {opacity: 1}
 }
 /*From W3Schools^^^*/
+
+/*Dark Mode */
+body{
+  padding:5px;
+  background-color: white;
+  color:black;
+
+}
+.dark-mode{
+  background-color: #273035;
+}
+
+.darkmode-container{
+  height: 60px;
+  width: 45%;
+  text-align: left;
+  float:left;
+  display: inline-block;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.nav-container{
+  background-image: linear-gradient(to right, rgb(8,255,103), rgb(4, 119, 252));
+  height: 60px;
+}
+
+/*Dark Mode Slider Button */
+/* The switch - the box around the slider */
+.switch {
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top:13px;
+  margin-bottom:13px;
+  margin-left:10px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #273035;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
