@@ -36,23 +36,20 @@ li:hover{
 } /*Makes the scale of the li element increase by 50% when you hover over it */
 
 .main-body{
-    background-image: linear-gradient(to right, rgb(8,255,103), rgb(4, 119, 252));
+    background-color: rgba(16, 187, 82, 0.89);
     height:800px;
     width:100%;
-    margin-top: 5px;
 }
 
 .footer{
-        background-image: linear-gradient(to right, rgb(8,255,103), rgb(4, 119, 252));
+        background-color: rgba(16, 187, 82, 0.89);
         height:200px;
         width:100%;
-        margin-top: 5px;
         text-align:center;
     }
 
 .media-links{
-  padding-top:60px;
-  padding-bottom:60px;
+  padding-top:100px;
 }
 .container{
     margin: 10px;
@@ -180,7 +177,7 @@ body{
 }
 
 .nav-container{
-  background-image: linear-gradient(to right, rgb(8,255,103), rgb(4, 119, 252));
+  background-color:#273035;
   height: 60px;
 }
 
@@ -273,6 +270,9 @@ form{
   margin-left:20px;
 }
 
+.align-right{
+  text-align:right;
+}
 
 
 
