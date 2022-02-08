@@ -251,38 +251,6 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-/*Social media buttons Styles */
-
-.fa{
-  padding:20px;
-  font-size:30px;
-  width:20px;
-  text-align:center;
-  text-decoration: none;
-  border-radius: 50%;
-  margin: 10px 10px;
-}
-
-.fa-facebook{
-  background:#3B5998;
-  color:white;
-}
-
-.fa-twitter{
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google{
-  background: #dd4b39;
-  color: white;
-}
-
-.fa:hover{
-  opacity: 0.9;
-  transform: scale(1.25);
-}
-
 form{
   padding-top:15px;
   padding-left:15px;
@@ -304,3 +272,7 @@ form{
   width:227px;
   margin-left:20px;
 }
+
+
+
+
