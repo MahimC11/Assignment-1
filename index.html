@@ -7,8 +7,8 @@
     <title>Home</title>
     <link rel="stylesheet" href="CSS/Styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script>
         function darkmode() {
@@ -20,37 +20,28 @@
 <body>
 <div class ="#">
     
-    <div class="nav-container">
-        <div class="row">
-            <div class = "col-md">
-                <label class="switch">
-                    <input type="checkbox" onclick="darkmode()">
-                    <span class="slider round"></span>
-                </label>
-            </div>
-            <div class ="col-md, align-right">
-                <ul>
-                    <li id="Navbar"><a class="active" href="index.html">Home Page </a>    </li>
-                    <li id="Navbar"><a href="About.html">About</a> </li>
-                    <li id="Navbar"><a href="Contact.html">Contact</a>  </li>   
-        
-                </ul>
-            </div>
-        </div>  
+  <div class="nav-container">
+    <div class = darkmode-container>
+        <label class="switch">
+            <input type="checkbox" onclick="darkmode()">
+            <span class="slider round"></span>
+          </label>
     </div>
+    <div class ="nav, align-right">
+        <ul>
+            <li id="Navbar"><a class = "active" href="index.html">Home Page </a>    </li>
+            <li id="Navbar"><a href="About.html">About</a> </li>
+            <li id="Navbar"><a href="Contact.html">Contact</a>  </li>   
+
+        </ul>
+    </div>
+</div>
 
     <div class="main-body">
         <body>
             <div class="container">
-                <h2>Carousel Example</h2>  
+                <h1>Upcoming Projects</h1>  
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-              
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
