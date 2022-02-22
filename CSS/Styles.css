@@ -155,29 +155,6 @@ form{
   padding-left:15px;
 }
 
-#messagetext{
-  height:200px;
-  width:450px;
-}
-
-#fname{
-  height:20px;
-  width:225px;
-  margin-left:20px;
-}
-
-#lname{
-  height:20px;
-  width:227px;
-  margin-left:20px;
-}
-
-#email{
-  height:20px;
-  width:227px;
-  margin-left:20px;
-}
-
 .align-right{
   text-align:right;
 }
@@ -187,7 +164,8 @@ form{
   list-style-position: inside;
 }
 label{
-  font-size:22px
+  font-size:22px;
+  color:white;
 }
 
 #button{
@@ -205,4 +183,37 @@ label{
 
 h1{
   color:white;
+}
+
+.NavE{
+  color:white;
+}
+
+.h3{
+  color:white;
+}
+
+input{
+  padding:5px;
+  margin:5px;
+}
+
+#messagetext{
+  width:800px;
+  height:400px;
+}
+
+#email{
+  width:800px;
+  height:40px;
+}
+
+#fname{
+  width:392px;
+  height:40px;
+}
+
+#lname{
+  width:392px;
+  height:40px;
 }
