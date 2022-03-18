@@ -7,8 +7,9 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
     <link rel="stylesheet" type="text/CSS" href="CSS/Styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script>
         function darkmode() {
@@ -20,22 +21,29 @@
 <body>
 <div class ="#">
     
-  <div class="nav-container">
+  <nav class="nav-container">
+    <div class ="nav">
+      <div class="btn-group align-center">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </button>
+        <div class="dropdown-menu">
+          <a href="About.html" class="dropdown-item" type="button">About</a><br>
+          <a href="Contact.html" class="dropdown-item" type="button">Contact</a>
+        </div>
+      </div> 
+    </div>
+    
+    
+    
     <div class = darkmode-container>
         <label class="switch">
             <input type="checkbox" onclick="darkmode()">
             <span class="slider round"></span>
           </label>
     </div>
-    <div class ="nav, align-right">
-        <ul>
-            <li id="Navbar"><a class= "NavE active" href="index.html">Home Page </a>    </li>
-            <li id="Navbar"><a class="NavE" href="About.html">About</a> </li>
-            <li id="Navbar"><a class="NavE" href="Contact.html">Contact</a>  </li>   
-
-        </ul>
-    </div>
-</div>
+  </nav>
+  
     <div class="main-body">
         <body>
           <div class="container-fluid">

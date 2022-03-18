@@ -18,10 +18,6 @@ ul{
 }
 li{
     font-size: 20px;
-    padding-top: 15px;  
-    padding-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
     float: left;
     font-family:Helvetica;
     
@@ -31,11 +27,6 @@ text-decoration: none;
 color: black;
 }
 
-li:hover{
-    transform: scale(1.25);
-    text-decoration:none;
-
-} /*Makes the scale of the li element increase by 50% when you hover over it */
 
 .main-body{
     background-color:#1f2d41;
@@ -57,7 +48,6 @@ li:hover{
 
 /*Dark Mode */
 body{
-  padding:5px;
   background-color: white;
   color:black;
 
@@ -216,4 +206,27 @@ input{
 #lname{
   width:392px;
   height:40px;
+}
+
+.titlecard{
+  background-color: #2196F3;
+}
+
+.white-text{
+  color:white;
+}
+
+.item-image{
+  width:100%;
+}
+
+.wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.align-center{
+  padding-top:10px;
+  padding-right:15px;
 }
