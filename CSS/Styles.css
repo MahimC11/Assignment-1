@@ -29,21 +29,22 @@ color: black;
 
 
 .main-body{
-    background-color:#1f2d41;
-    height:1000px;
+    background-color:#263853;
+    height:100%;
     width:100%;
     box-shadow:0px 5px;
+    padding-bottom: 25px;
 }
 
 .footer{
-        background-color:#1f2d41;
-        height:200px;
+        background-color:#006180;
+        height:180px;
         width:100%;
         text-align:center;
     }
 
 .media-links{
-  padding-top:130px;
+  padding-top:90px;
 }
 
 /*Dark Mode */
@@ -67,7 +68,7 @@ body{
 }
 
 .nav-container{
-  background-color:#0777d3;
+  background-color:#008C98;
   height: 60px;
   box-shadow:0px 5px;
   
@@ -229,4 +230,11 @@ input{
 .align-center{
   padding-top:10px;
   padding-right:15px;
+}
+
+.container{
+  max-width: 100%;
+}
+.content{
+  width: 100%
 }
