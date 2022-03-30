@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contact Me</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/CSS" href="CSS/Styles.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script>
-            function darkmode() {
-                var element = document.body;
-                element.classList.toggle("dark-mode")
-            }
-        </script>
-    </head>
-    <body>
-
-        <div class = "#">
-    <nav class="nav-container">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" type="text/CSS" href="CSS/Styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        function darkmode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode")
+        }
+    </script>
+</head>
+<body>
+<div class ="#">
+    
+  <nav class="nav-container">
     <div class ="nav">
       <div class="btn-group align-center">
         <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -30,7 +29,7 @@
         </button>
         <div class="dropdown-menu">
           <a href="index.html" class="dropdown-item" type="button">Home</a><br>
-          <a href="about.html" class="dropdown-item" type="button">About</a>
+          <a href="about.html" class="dropdown-item" type="button">About Me</a>
         </div>
       </div> 
     </div>
@@ -45,68 +44,41 @@
     </div>
   </nav>
 
-            
-
-            <main class="main-body">
+  <main class="main-body" id="fill-page">
+    <div class="container">
+        <div class="content">
+            <div class="center">
+                <div class ="panel-heading">
+                        <h1>Contact</h1>
+                        <p class="white-text">
+                            Want to Contact me? Just leave your name and a message down below.
+                        </p> <br>
+                    
+                </div> 
                 <div class="container">
-                    <div class="content">
-                        <div class="center">
-                            <div class ="panel-heading">
-                                <section class ="Container">
-                                    <h1>Contact</h1>
-                                    <p class="white-text">
-                                        Want to Contact me? Just leave your name and a message down below.
-                                    </p>
-                                
-                            </div>
-                            
-                                
-                                    
-                                            <form action="https://formspree.io/f/moqrnalo" method="POST">
-                                                
-                                                <input type="text" placeholder="First Name" id="fname" name="fname" required>
-                                                
-                                                <input type="text" placeholder="Last Name" id="lname" name="lname" required><br>
-                                                
-                                                <input type="email" placeholder="Email" id="email" name="email" required><br>
-                                                
-                                                <input size="25" type="text" placeholder="Enter your Message" id="messagetext" required><br><br>
-
-                                                <input type="submit" value="Submit" id="button">
-
-                                            </form>
-                                        
-
-
-
-                                    
-                                </section>
-                            
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </main>
-
-            <footer class="footer">
-                <div class="media-links">
-                    <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-github"></i></a>
-                    <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
-                </div>
-            </footer>
-
+                  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqrnalo" method="POST">
+                    <fieldset id="fs-frm-inputs">
+                      <input type="text" name="name" id="full-name" placeholder="First and Last name" required=""><br>
+                      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br>
+                      <textarea rows="5" name="message" id="message" placeholder="Enter your message here" required=""></textarea><br>
+                      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"><br>
+                    </fieldset>
+                    <input type="submit" value="Submit" id="button">
+                  </form>
+                </div>   
+            </div>
         </div>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script>
-            function darkmode() {
-                var element = document.body;
-                element.classList.toggle("dark-mode")
-            }
-        </script>
-    </body>
+    </div>
+</main>
+
+    <footer class="footer">
+        <div class="media-links">
+            <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-lg fa-github"></i></a>
+            <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
+        </div>
+      </footer>
+</div>
+</body>
 </html>
